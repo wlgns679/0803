@@ -1,5 +1,5 @@
 
-public class Clac {
+public class Calc {
 	void calc(Student student) {
 		student.tot = student.kor + student.eng + student.mat;
 		student.avg = student.tot / 3;
