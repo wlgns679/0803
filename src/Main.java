@@ -4,7 +4,7 @@ public class Main {
 		System.out.println("성적관리프로그램 시작");
 		Student jimin = new Student();
 		Input input = new Input();		input.input(jimin);
-		Calc	 clac = new clac();		calc.calc(jimin);
+		Calc	 calc = new Calc();		calc.calc(jimin);
 		Output output = new Output();	output.output(jimin);
 		
 		System.out.println("성적관리프로그램 끝");
