@@ -4,7 +4,7 @@ public class Output {
 		printLable();		// Call by Name
 		System.out.printf("%d\t%s\t%s\t%d\t%d\t%d\t%d\t%.2d\t%c\n",
 				student.ranking, student.hakbun, student.name,
-				student.kor, student.eng, student.mat, student.tot
+				student.kor, student.eng, student.mat, student.tot,
 				student.avg, student.grade);
 	}
 	void printLable() {
