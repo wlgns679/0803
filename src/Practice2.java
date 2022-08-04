@@ -28,7 +28,7 @@ public class Practice2 {
 		for(int i = 0; i < A.length; i++) {
 			for(int j = 0; j < A[i].length; j++) {
 				result[i][j] = A[i][j] + B[i][j];
-			}
+			}//
 		}
 }
 	static void matrixPrint(int [][] result) {
